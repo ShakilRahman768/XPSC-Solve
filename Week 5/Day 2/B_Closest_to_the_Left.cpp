@@ -30,10 +30,6 @@ int main()
             {
                 r = mid - 1;
             }
-            // else
-            // {
-            //     l = mid + 1;
-            // }
         }
         cout << indx + 1 << "\n";
     }
