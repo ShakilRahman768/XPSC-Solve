@@ -5,7 +5,13 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
-    long long int x, y, a, b;
+    long long int x, y;
+    long double a,b;
+    if (x == y)
+    {
+        cout << "=" << "\n";
+        return 0;
+    }
     cin >> x >> y;
     a = y * log(x);
     b = x * log(y);
